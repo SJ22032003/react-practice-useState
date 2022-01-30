@@ -1,0 +1,23 @@
+.list{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+    border-bottom: 2px dotted #fff ;
+    padding-bottom: 10px;
+}
+.list-remove{
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 3px 3px  rgb(156, 155, 155);
+}
+.list-remove:active{
+    transform: translateY(3px);
+}
+.list-remove:hover{
+    filter: brightness(70%);
+}
